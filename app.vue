@@ -3,13 +3,10 @@
 </script>
 
 <template>
-  <header class="w-full h-[10vh] bg-red-300">
-    <NuxtLink to="/">index</NuxtLink>
-    <br />
-    <NuxtLink to="/about">about</NuxtLink>
-    <br />
-    <NuxtLink to="/project">project</NuxtLink>
+  <header>
+    <Navbar />
   </header>
+
   <main><NuxtPage></NuxtPage></main>
 
   <div>
