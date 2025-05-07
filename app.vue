@@ -6,10 +6,5 @@
   <header>
     <Navbar />
   </header>
-
   <main><NuxtPage></NuxtPage></main>
-
-  <div>
-    <div><p class="text-red-500">asdfasd</p></div>
-  </div>
 </template>
